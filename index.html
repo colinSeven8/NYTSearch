@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!--Reset CSS-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!--Media Query-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Original CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    <title>NYTSearch</title>
+</head>
+
+<body>
+
+    <div class="container fluid container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">New York Times Search</h1>
+            </div>
+        </div>
+        <div class="card">
+            <h5 class="card-header"><strong>Search Parameters</strong></h5>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Search Term:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Number of Records to Retrieve:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Start Year (Optional):</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">End Year (Optional):</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="buttons">
+                        <button class="search-btn">Search</button>
+                        <button class="clear-btn">Clear Results</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="card">
+            <h5 class="card-header"><strong>Top Articles</strong></h5>
+            <div class="card-body" id="top-articles">
+            </div>
+        </div>
+        <nav class="navbar fixed-bottom navbar-light bg-light">
+            <p>Made with lots and lots of <img src=""/></p>
+        </nav>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

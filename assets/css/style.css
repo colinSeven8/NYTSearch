@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.jumbotron {
+
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+nav > p {
+    text-align: center;
+    border-top: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    font-weight: bold;
+}
+
+.card {
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+.card-header {
+    border-bottom: 1px solid lightgray;
+    background-color: lightgray;
+    margin: 0;
+    padding: 12px;
+}
+
+.form-group {
+    padding: 0 15px;
+}
+
+form {
+    padding: 10px 0;
+}
+
+.buttons {
+    padding-left: 15px;
+}
